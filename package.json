@@ -1,0 +1,16 @@
+{
+  "name": "mustafamengutay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.2",
+    "tailwindcss-animated": "^1.0.1"
+  }
+}
