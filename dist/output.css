@@ -522,26 +522,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.left-\[4rem\] {
-  left: 4rem;
-}
-
-.top-\[18\.3rem\] {
-  top: 18.3rem;
-}
-
-.top-\[15\.3rem\] {
-  top: 15.3rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -559,26 +539,6 @@ video {
   margin-bottom: 4.8rem;
 }
 
-.mt-\[18\.3rem\] {
-  margin-top: 18.3rem;
-}
-
-.mt-\[2rem\] {
-  margin-top: 2rem;
-}
-
-.mt-\[15\.3rem\] {
-  margin-top: 15.3rem;
-}
-
-.mt-\[12\.3rem\] {
-  margin-top: 12.3rem;
-}
-
-.mt-\[50\%\] {
-  margin-top: 50%;
-}
-
 .flex {
   display: flex;
 }
@@ -587,16 +547,8 @@ video {
   display: none;
 }
 
-.aspect-auto {
-  aspect-ratio: auto;
-}
-
-.aspect-square {
-  aspect-ratio: 1 / 1;
-}
-
-.h-\[5\.6rem\] {
-  height: 5.6rem;
+.h-\[10\.4rem\] {
+  height: 10.4rem;
 }
 
 .h-\[56\.6rem\] {
@@ -607,40 +559,20 @@ video {
   height: 6.5rem;
 }
 
-.h-\[10\.4rem\] {
-  height: 10.4rem;
-}
-
-.h-\[104px\] {
-  height: 104px;
-}
-
 .h-screen {
   height: 100vh;
-}
-
-.w-\[35rem\] {
-  width: 35rem;
-}
-
-.w-\[5\.6rem\] {
-  width: 5.6rem;
 }
 
 .w-\[10\.4rem\] {
   width: 10.4rem;
 }
 
-.w-\[104px\] {
-  width: 104px;
+.w-\[35rem\] {
+  width: 35rem;
 }
 
-.shrink-0 {
-  flex-shrink: 0;
-}
-
-.grow-0 {
-  flex-grow: 0;
+.w-screen {
+  width: 100vw;
 }
 
 @keyframes fade {
@@ -673,10 +605,6 @@ video {
   align-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-end {
   justify-content: flex-end;
 }
@@ -699,10 +627,6 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded-\[100px\] {
-  border-radius: 100px;
 }
 
 .bg-black {
@@ -777,6 +701,7 @@ video {
 
 html {
   font-size: 62.5%;
+  overflow: hidden;
 }
 
 .hover\:text-white:hover {
@@ -806,10 +731,6 @@ html {
     margin-top: 6rem;
   }
 
-  .sm\:mb-\[2\.4rem\] {
-    margin-bottom: 2.4rem;
-  }
-
   .sm\:inline {
     display: inline;
   }
@@ -834,12 +755,12 @@ html {
     width: 15.3rem;
   }
 
-  .sm\:w-\[59\.6rem\] {
-    width: 59.6rem;
-  }
-
   .sm\:w-\[5\.6rem\] {
     width: 5.6rem;
+  }
+
+  .sm\:w-\[59\.6rem\] {
+    width: 59.6rem;
   }
 
   .sm\:flex-col {
@@ -856,10 +777,6 @@ html {
 
   .sm\:gap-\[2\.4rem\] {
     gap: 2.4rem;
-  }
-
-  .sm\:rounded-full {
-    border-radius: 9999px;
   }
 
   .sm\:px-\[4\.5rem\] {
