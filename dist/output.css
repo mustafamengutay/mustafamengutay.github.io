@@ -575,6 +575,10 @@ video {
   margin-top: 12.3rem;
 }
 
+.mt-\[50\%\] {
+  margin-top: 50%;
+}
+
 .flex {
   display: flex;
 }
@@ -609,6 +613,10 @@ video {
 
 .h-\[104px\] {
   height: 104px;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-\[35rem\] {
