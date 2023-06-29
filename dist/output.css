@@ -555,6 +555,10 @@ video {
   margin-bottom: 4.8rem;
 }
 
+.mt-\[18\.3rem\] {
+  margin-top: 18.3rem;
+}
+
 .flex {
   display: flex;
 }
@@ -768,6 +772,10 @@ html {
 
   .sm\:mt-\[6rem\] {
     margin-top: 6rem;
+  }
+
+  .sm\:mb-\[2\.4rem\] {
+    margin-bottom: 2.4rem;
   }
 
   .sm\:inline {
