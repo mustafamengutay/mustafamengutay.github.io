@@ -11,12 +11,12 @@
     <title>Mustafa Mengütay</title>
   </head>
   <body
-    class="bg-black text-white font-serif font-light text-base tracking-[-0.4px] leading-[150.5%] animate-fade animate-once animate-ease-in"
+    class="bg-black text-white font-serif font-light text-[2rem] sm:text-base tracking-[-0.4px] leading-[150.5%] animate-fade animate-once animate-ease-in"
   >
-    <div class="wrapper">
-      <div class="links w-[116rem] mt-[6rem] mx-auto">
+    <div class="wrapper w-[35rem] sm:w-[116rem] h-[56.6rem] mx-auto">
+      <div class="links sm:w-[116rem] sm:mt-[6rem] sm:mx-auto">
         <ul
-          class="links__list text-[#636363] text-base flex gap-[2.4rem] justify-end"
+          class="links__list text-[#636363] text-base sm:flex sm:gap-[2.4rem] justify-end hidden"
         >
           <li class="hover:text-white">
             <a
@@ -38,17 +38,23 @@
         </ul>
       </div>
       <div
-        class="main w-[59.6rem] h-[36.1rem] absolute left-[36.5rem] top-[19rem]"
+        class="main sm:absolute sm:left-[36.5rem] sm:top-[19rem] absolute left-[4rem] top-[18.3rem]"
       >
-        <div class="avatar w-[5.6rem] h-[5.6rem] mb-[2.4rem]">
+        <div
+          class="avatar sm:w-[5.6rem] sm:h-[5.6rem] mb-[2.4rem] w-[10.4rem] h-[10.4rem]"
+        >
           <img
             src="./images/pp-bw.jpeg"
-            class="avatar__img object-cover w-[5.6rem] h-[5.6rem] rounded-full"
+            class="avatar__img object-cover w-[10.4rem] h-[10.4rem] sm:w-[5.6rem] sm:h-[5.6rem] rounded-full"
             alt="Avatar Photo"
           />
         </div>
-        <div class="main__content text-[#636363] mb-[2.4rem]">
-          <p class="main__content__title text-lg mb-[1.6rem] text-white">
+        <div
+          class="main__content text-[#636363] mb-[2.4rem] w-[35rem]  sm:w-[59.6rem]"
+        >
+          <p
+            class="main__content__title text-[3.2rem] sm:text-lg mb-[1.6rem] text-white"
+          >
             Hi, I’m Mustafa.
           </p>
           <p class="main__content__biography">
@@ -65,16 +71,18 @@
           </p>
         </div>
         <div class="main__skills flex flex-col gap-[1rem]">
-          <p class="main__skills__title text-white">Top Skills</p>
+          <p class="main__skills__title text-white text-[2rem] sm:text-base">
+            Top Skills
+          </p>
           <ul
-            class="main__skills__list flex gap-[1.05rem] text-[#636363] mb-[4.8rem]"
+            class="main__skills__list flex sm:flex gap-[0.6rem] sm:gap-[1.05rem] flex-wrap text-[#636363] mb-[4.8rem]"
           >
             <li>JavaScript</li>
             <li>·</li>
             <li>React.js</li>
             <li>·</li>
             <li>CSS</li>
-            <li>·</li>
+            <li class="hidden sm:inline">·</li>
             <li>Software Design</li>
             <li>·</li>
             <li>UI/UX Design</li>
@@ -82,8 +90,8 @@
         </div>
         <a
           href="mailto:mustafamengutayy@gmail.com"
-          class="btn-contact bg-white text-black w-[15.3rem] h-[4rem] py-[1.1rem] px-[4.5rem] rounded-full
-          flex justify-center items-center whitespace-nowrap"
+          class="btn-contact bg-white text-black w-[35rem] sm:w-[15.3rem] h-[6.5rem] sm:h-[4rem] sm:py-[1.1rem] sm:px-[4.5rem] rounded-full
+          flex justify-center items-center whitespace-nowrap text-[2.4rem] sm:text-base"
           >Say Hello</a
         >
       </div>
