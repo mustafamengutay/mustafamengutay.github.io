@@ -538,6 +538,10 @@ video {
   top: 18.3rem;
 }
 
+.top-\[15\.3rem\] {
+  top: 15.3rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
