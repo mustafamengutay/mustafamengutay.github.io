@@ -10,7 +10,12 @@ module.exports = {
       'xl-mobile': '4.063rem',
       'xl-desktop': '12.5rem',
     },
-    extend: {},
+    extend: {
+      colors: {
+        'black': '#0D0C0C',
+        'gray': '#B5B5B5',
+      }
+    },
   },
   plugins: [],
 }
