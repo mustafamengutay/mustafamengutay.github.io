@@ -560,10 +560,6 @@ video {
   max-width: 692px;
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -659,6 +655,10 @@ video {
 
   .sm\:mb-4 {
     margin-bottom: 1rem;
+  }
+
+  .sm\:mb-6 {
+    margin-bottom: 1.5rem;
   }
 
   .sm\:py-2 {
